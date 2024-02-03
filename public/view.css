@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.students-container,
+.timetable-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.students-container h2,
+.timetable-container h2 {
+    text-align: center;
+}
+
+#students-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#students-list li {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+
+#timetable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#timetable th, #timetable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}

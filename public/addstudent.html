@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Add Student</title>
+</head>
+<body>
+    <div id="add-student-container">
+        <h2>Add Student</h2>
+        <form action="/add-student" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="regNumber">Registration Number:</label>
+            <input type="text" id="regNumber" name="regNumber" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+</body>
+</html>

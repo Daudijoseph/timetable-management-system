@@ -1,0 +1,11 @@
+first you should run xammp because i use as mysql database 
+create database timetable, import that file of timetable.sql
+run server.js in your terminal as node server.js
+
+as admini
+  username admin1
+  password 1234
+
+as student 
+   username  student1
+   password 1234
