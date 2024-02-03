@@ -1,7 +1,12 @@
 first you should run xammp because i use as mysql database 
 create database timetable, import that file of timetable.sql
 run server.js in your terminal as node server.js
-
+before u run code must install package in your project
+open terminal of project write
+   •npm init -y
+   •npm install mysql
+   •npm install express
+   
 as admini
   username admin1
   password 1234
